@@ -8,9 +8,9 @@ email: southcanstrength@gmail.com
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
+- {name: About Us, url: '#about'}
 - {name: Services, url: '#services'}
-- {name: Contact, url: '#Contact'}
+- {name: Contact, url: '#contact'}
 
 #-------------------------------
 # SEO Section
@@ -83,11 +83,10 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
-- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
-- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
-- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+- {icon: 'facebook', link: 'https://www.facebook.com/groups/2181699775260439/'}
+- {icon: 'twitter', link: 'https://twitter.com/Shehan_Atuk'}
+- {icon: 'instagram', link: 'https://www.instagram.com/southcanstrength/'}
+
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

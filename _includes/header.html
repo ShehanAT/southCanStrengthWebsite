@@ -1,10 +1,11 @@
-<header id="header">
-
-  <nav>
+<nav>
+    <a href="#" alt="southCanStrengthLogo" id="logoLink"><img src="../assets/img/logo.svg" alt="southCanStrength Logo" id="logo"></a>
+   
     {% for item in site.data.settings.menu %}
-      <a href="{{ item.url }}">{{ item.name }}</a>
+    <span class="vr">&nbsp;</span><a href="{{ item.url }}">{{ item.name }}</a> 
     {% endfor %}
-  </nav>
+</nav>
+<header id="header">
 
   <h1><span>{{ site.data.settings.title }}</span></h1>
   <p class="kicker">{{ site.data.settings.description }}</p>
