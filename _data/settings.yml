@@ -83,9 +83,10 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'facebook', link: 'https://www.facebook.com/groups/2181699775260439/'}
-- {icon: 'twitter', link: 'https://twitter.com/Shehan_Atuk'}
-- {icon: 'instagram', link: 'https://www.instagram.com/southcanstrength/'}
+- {icon: 'facebook', link: 'https://www.facebook.com/groups/2181699775260439/', path: 'icons/facebook.html'}
+- {icon: 'twitter', link: 'https://twitter.com/Shehan_Atuk', path: 'icons/twitter.html'}
+- {icon: 'instagram', link: 'https://www.instagram.com/southcanstrength/', path: 'icons/instagram.html'}
+- {icon: 'snapchat', link: 'https://twitter.com/Shehan_Atuk', path: 'icons/snapchat.html'}
 
 
 

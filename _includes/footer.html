@@ -1,12 +1,19 @@
 <footer id="footer">
 
   <div class="lockup">
-
+    <h3 id="footer__heading">Links</h3>
     <div class="content-wrap">
       <nav>
-        {% for item in site.data.settings.menu %}
-          <a href="{{ item.url }}">{{ item.name }}</a>
-        {% endfor %}
+    
+          <a href="#" class="social-icons">{% include icons/twitterIcon.html %}</a>
+     
+          <a href="#" class="social-icons">{% include icons/snapchatIcon.html %}</a>
+
+          <a href="#" class="social-icons">{% include icons/facebookIcon.html %}</a>
+    
+     
+          <a href="#" class="social-icons">{% include icons/instagramIcon.html %}</a> 
+     
       </nav>
 
       <p class="copyright">All content copyright {{ site.time | date: '%Y' }}</p>
