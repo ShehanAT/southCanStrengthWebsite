@@ -3,4 +3,4 @@
 
 
 ### Project Logs:
-* 08/01/2019 - added navbar styles
+* 08/01/2019 - added navbar styles, added header background image + header styles
