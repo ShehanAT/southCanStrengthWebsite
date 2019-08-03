@@ -1,0 +1,21 @@
+<section class="services">
+    <div class="services__heading">
+        <h1>Services</h1>
+    </div>
+    <div class="services__cards">
+        {% for item in site.data.settings.services %} 
+        <div class="services__card">
+            <img src="{{ item.imgPath }}" class="services__img"alt="">
+            <div class="card__content">
+                <h5>{{ item.heading }}</h5>
+                <p>{{ item.info }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="services__form">
+        <strong>Interested in our services?</strong>
+        <button>Send Coaching Enquiry</button>
+    </div>
+
+</section>

@@ -88,6 +88,9 @@ social:
 - {icon: 'instagram', link: 'https://www.instagram.com/southcanstrength/', path: 'icons/instagram.html'}
 - {icon: 'snapchat', link: 'https://twitter.com/Shehan_Atuk', path: 'icons/snapchat.html'}
 
-
+services:
+- {imgPath: "../assets/img/servicesimg1.svg", heading: "One on One Personal Training", info: "Lorem Ipsum is simply dummpy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text every since the 1500s, when an unknow printer took a gallery of type"}
+- {imgPath: "../assets/img/servicesimg2.svg", heading: "Online Powerlifing Coaching", info: "Lorem Ipsum is simply dummpy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text every since the 1500s, when an unknow printer took a gallery of type"}
+- {imgPath: "../assets/img/servicesimg3.svg", heading: "Nutrition + Cardio Programming", info: "Lorem Ipsum is simply dummpy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text every since the 1500s, when an unknow printer took a gallery of type"}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
