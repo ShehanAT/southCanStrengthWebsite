@@ -10,7 +10,9 @@ email: shehanatuk@gmail.com
 menu:
 - {name: About Us, url: '#about'}
 - {name: Services, url: '#services'}
+- {name: Enquiries, url: "#"}
 - {name: Contact, url: '#contact'}
+
 
 #-------------------------------
 # SEO Section
