@@ -1,20 +1,21 @@
-<section>
+<section class="contact">
 
-    <h3>Let's work together</h3>
+    <h3 id="contact__heading">Contact Us</h3>
   
   <form method="POST" action="//formspree.io/{{ site.data.settings.email }}">
   
     <fieldset class="contact-info-group">
-  
-      <label><span>Your Name</span>
-      <input type="text" name="name"></label>
-  
-      <label><span>Your Email</span>
-      <input type="email" name="_replyto"></label>
-  
+      <div>
+        <label><span>Your Name: </span>
+        <input type="text" name="name"></label>
+      </div>
+      <div>
+        <label><span>Your Email: </span>
+        <input type="email" name="_replyto"></label>
+      </div>
     </fieldset>
   
-    <label><span>Tell me about your project</span>
+    <label><span>Your Message: </span>
     <textarea name="message"></textarea></label>
   
     <fieldset class="submit-wrap">
