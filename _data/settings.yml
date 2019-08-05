@@ -13,6 +13,15 @@ menu:
 - {name: Enquiries, url: "#"}
 - {name: Contact, url: '#contact'}
 
+left-menu:
+- {name: About Us, url: '#about'}
+- {name: Services, url: '#services'}
+
+right-menu:
+
+- {name: Enquiries, url: "#"}
+- {name: Contact, url: '#contact'}
+
 
 #-------------------------------
 # SEO Section

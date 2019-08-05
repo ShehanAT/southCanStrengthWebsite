@@ -1,6 +1,6 @@
 <nav>
-    <a href="#" alt="southCanStrengthLogo" id="logoLink"><img src="../assets/img/logo.svg" alt="southCanStrength Logo" id="logo"></a>
-   
+    
+    <a href="#" alt="southCanStrengthLogo" id="logoLink"><span>{% include icons/logo.svg%}</span></a>
     {% for item in site.data.settings.menu %}
     <span class="vr">&nbsp;</span><a href="{{ item.url }}">{{ item.name }}</a> 
     {% endfor %}
