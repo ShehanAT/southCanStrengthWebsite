@@ -7,3 +7,4 @@
 * 08/03/2019 - partially styled services page, implemnted service cards with modular design pattern
 * 08/04/2019 - added `Enquries` tab to navbar, improved services section layout
 * 08/05/2019 - redesigned navbar
+* 08/06/2019 - improved and added animations to mobile navbar
