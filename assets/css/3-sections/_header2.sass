@@ -80,6 +80,8 @@ nav.desktop-nav
     .mobile-nav > #nav-check:checked ~ .nav-links
         height: calc(100vh - 50px)
         overflow-y: auto
+    .mobile-nav > #nav-check:checked ~ .about
+        height: 0px
     .nav-links  
         position: absolute 
         top: 100%
@@ -90,6 +92,11 @@ nav.desktop-nav
         transition: all 0.3s ease-in 
         overflow-y: hidden 
         left: 0px
+        a 
+            margin: 3em 0px
+            text-transform: uppercase 
+            font-size: 2em
+            font-weight: 5em
     .nav-check__label span:nth-child(1) 
         -webkit-animation: outT 0.8s backwards
         animation: outT 0.8s backwards
@@ -132,25 +139,53 @@ nav.desktop-nav
 
     //about styles 
 
-    .about > .about__heading > h1
-        font-size: 1.5em
-    .about > .about__heading > p
-        font-size: 1em
+    .about > .about__heading  
+        
+        h1
+            padding: 2em 0em 2em 0em
+            font-size: 1.5em
+            margin: 0px 8%
+        p 
+            font-size: 1.1em
+            margin: 0px 8%
+        
     .about > .about__section1 
         display: flex
+        flex-direction: column
     .about > .about__section1 > .about__why 
-        order: 2
+        
         h3   
-            font-size: 1.25em
+            font-size: 1.2em
+            padding: 0px
         p
-            font-size: 1em
+            font-size: 1.1em
+        order: 2
+        margin: 0px 8%
     // implement responsive images now, trying to switch the order of .about__why and img elements(image, heading, para format)
     .about > .about__section1 > img
-        order: 1
-        max-width: 100%
-        height: auto
+        content: url("../../assets/img/about1-small.svg")
+        width: 30em
+        height: 30em
+        margin: 0px auto
+        flex-direction: column
 
-        
+    .about > .about__section2
+        display: flex
+        flex-direction: column
+    .about > .about__section2 > .about__history 
+        h3   
+            font-size: 1.2em
+            padding: 0px
+        p
+            font-size: 1.1em
+        order: 2
+        margin: 0px 8%
+    .about > .about__section2 > img
+        content: url("../../assets/img/about2-small.svg")
+        width: 30em
+        height: 30em
+        margin: 0px auto
+        flex-direction: column    
         
     
 
