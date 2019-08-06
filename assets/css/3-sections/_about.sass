@@ -48,3 +48,51 @@
             text-align: left
             padding-right: 1rem
 
+@media screen and (max-width: 600px)
+    // 600px media queries for about section
+    .about > .about__heading  
+        
+        h1
+            padding: 1em 0em 1em 0em
+            font-size: 4.25em
+            margin: 0px 8%
+        p 
+            font-size: 1.1em
+            margin: 0px 8%
+        
+    .about > .about__section1 
+        display: flex
+        flex-direction: column
+    .about > .about__section1 > .about__why 
+        
+        h3   
+            font-size: 1.2em
+            padding: 0px
+        p
+            font-size: 1.1em
+        order: 2
+        margin: 0px 8%
+    .about > .about__section1 > img
+        content: url("../../assets/img/about1-small.svg")
+        width: 30em
+        height: 30em
+        margin: 0px auto
+        flex-direction: column
+
+    .about > .about__section2
+        display: flex
+        flex-direction: column
+    .about > .about__section2 > .about__history 
+        h3   
+            font-size: 1.2em
+            padding: 0px
+        p
+            font-size: 1.1em
+        order: 2
+        margin: 0px 8%
+    .about > .about__section2 > img
+        content: url("../../assets/img/about2-small.svg")
+        width: 30em
+        height: 30em
+        margin: 0px auto
+        flex-direction: column   

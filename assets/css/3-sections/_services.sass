@@ -2,7 +2,7 @@
     h1
         text-align: center
         color: red
-        font-size: 68px
+        font-size: 4.25em
 .services__cards
     display: grid
     margin: 0 10% 5% 10%
@@ -32,3 +32,16 @@
         font-size: 32px
     button:hover
         background-color: white
+@media screen and (max-width: 600px)
+    // 600px media queries for services section
+    .services__heading
+        h1
+            text-align: center
+            color: red
+            font-size: 4.25em
+            padding: 0.5em 0em 0.5em 0em
+    .card__content  
+        h5 
+            font-size: 1.3em
+        p
+            font-size: 1.1em
