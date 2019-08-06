@@ -26,7 +26,7 @@ nav.desktop-nav
         max-height: 2em
         background: white
         padding: 10px 10px 0px 15px
-        #top right bottom left 
+        //top right bottom left 
         height: 100%
 .mobile-nav > #nav-check 
     display: none
@@ -34,15 +34,21 @@ nav.desktop-nav
 
             
 @media screen and (max-width: 600px)
+    //general styles
     body
         display: flex
         flex-direction: column
         overflow-x: hidden
+        
 
     .services > .services__cards
         display: grid
         grid-template-columns: 100%
-       
+    nav.desktop-nav 
+        display: none
+
+    //navbar styles
+
     .mobile-nav 
         display: grid
         position: absolute 
@@ -52,7 +58,7 @@ nav.desktop-nav
         grid-template-columns: 1fr
         background: white
     .logo__container 
-        width: 50%        
+        width: 40%        
     .nav-btn 
         display: inline-block 
         position: absolute
@@ -60,7 +66,7 @@ nav.desktop-nav
         top: 30%
     .nav-btn > label > span 
         display: block 
-        width: 25px
+        width: 40px
         height: 10px 
         border: 1px solid #ef2019
         background-color: #000000
@@ -74,9 +80,6 @@ nav.desktop-nav
     .mobile-nav > #nav-check:checked ~ .nav-links
         height: calc(100vh - 50px)
         overflow-y: auto
-
-    .desktop-nav 
-        display: none 
     .nav-links  
         position: absolute 
         top: 100%
@@ -112,6 +115,44 @@ nav.desktop-nav
     .dropdown-active span:nth-child(3)
         display: none
 
+    //header styles
+    #header 
+        background-image: url(../img/tmpBackground-msmall.svg)
+        background-size: cover
+        h1
+            color: red
+            padding-top: 8em
+            font-size: 3em 
+        p 
+            color: white
+            font-size: 1em
+       
+    
+    //make the header background a responsive image later 
+
+    //about styles 
+
+    .about > .about__heading > h1
+        font-size: 1.5em
+    .about > .about__heading > p
+        font-size: 1em
+    .about > .about__section1 
+        display: flex
+    .about > .about__section1 > .about__why 
+        order: 2
+        h3   
+            font-size: 1.25em
+        p
+            font-size: 1em
+    // implement responsive images now, trying to switch the order of .about__why and img elements(image, heading, para format)
+    .about > .about__section1 > img
+        order: 1
+        max-width: 100%
+        height: auto
+
+        
+        
+    
 
 
 @keyframes outBtm 
@@ -261,7 +302,7 @@ nav.desktop-nav
 header
     height: 95vh
     text-align: center
-    background: url(../img/tmpBackground.svg)
+    background-image: url(../img/tmpBackground.svg)
     background-size: cover
     h1 
         padding-top: 12rem
