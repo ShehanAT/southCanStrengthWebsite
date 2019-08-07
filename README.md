@@ -12,4 +12,4 @@
 * 08/04/2019 - added `Enquries` tab to navbar, improved services section layout
 * 08/05/2019 - redesigned navbar
 * 08/06/2019 - improved and added animations to mobile navbar(600px), added responsive header backgroud image(600px), made about section responsive with responsive img(600px), made services, contact, about sections responsive(600px), made full page(main page) responsive design + images for 900px, added 750px, 900px, 1050px media queries for navbar
-* 08/07/2019 - improved contact section form layout, made contact page route
+* 08/07/2019 - improved contact section form layout, made contact page route, made mobile navigation with javascript
