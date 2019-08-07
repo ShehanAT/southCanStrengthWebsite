@@ -12,28 +12,28 @@ contactPageDescrption: Athlete Bio
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Us, url: 'http://localhost:4000/#about'}
-- {name: Services, url: 'http://localhost:4000/#services'}
-- {name: Enquiries, url: "http://localhost:4000/contactPage"}
-- {name: Contact, url: 'http://localhost:4000/#contact'}
+- {name: About Us, url: 'https://shehanat.github.io/southCanStrengthWebsite/#about'}
+- {name: Services, url: 'https://shehanat.github.io/southCanStrengthWebsite/#services'}
+- {name: Enquiries, url: "https://shehanat.github.io/southCanStrengthWebsite/contactPage"}
+- {name: Contact, url: 'https://shehanat.github.io/southCanStrengthWebsite/#contact'}
 
 left-menu:
-- {name: About Us, url: 'http://localhost:4000/#about'}
-- {name: Services, url: 'http://localhost:4000/#services'}
+- {name: About Us, url: 'https://shehanat.github.io/southCanStrengthWebsite/#about'}
+- {name: Services, url: 'https://shehanat.github.io/southCanStrengthWebsite/#services'}
 
 right-menu:
 
-- {name: Enquiries, url: "http://localhost:4000/contactPage/#enquiry"}
-- {name: Contact, url: 'http://localhost:4000/#contact'}
+- {name: Enquiries, url: "https://shehanat.github.io/southCanStrengthWebsite/contactPage/#enquiry"}
+- {name: Contact, url: 'https://shehanat.github.io/southCanStrengthWebsite/#contact'}
 
 contactLeft-menu:
-- {name: About Us, url: 'http://localhost:4000/#about'}
-- {name: Services, url: 'http://localhost:4000/#services'}
+- {name: About Us, url: 'https://shehanat.github.io/southCanStrengthWebsite/#about'}
+- {name: Services, url: 'https://shehanat.github.io/southCanStrengthWebsite/#services'}
 
 contactRight-menu:
 
-- {name: Enquiries, url: "http://localhost:4000/contactPage/#enquiry"}
-- {name: Contact, url: 'http://localhost:4000/#contact'}
+- {name: Enquiries, url: "https://shehanat.github.io/southCanStrengthWebsite/contactPage/#enquiry"}
+- {name: Contact, url: 'https://shehanat.github.io/southCanStrengthWebsite/#contact'}
 
 
 #-------------------------------
