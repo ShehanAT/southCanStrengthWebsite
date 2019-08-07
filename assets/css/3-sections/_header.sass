@@ -1,33 +1,35 @@
 
 #logoLink
-
     padding: 0px 0px 0px 0px
 
     min-height: 5em
     border-bottom-left-radius: 70%
     border-bottom-right-radius: 70%
     svg
-        width: 50%
+        width: 55%
+nav.desktop-nav 
+    color: white
+    display: grid
+    grid-template-columns: 22% 22% 1fr 22% 22%
+    max-width: 100vw
+    a 
+        text-align: center
+        flex: 1
+        font-size: 1.1rem
+        margin-left: 0px
+        max-height: 2em
+        
+        background: white
+        padding: 10px 0px 0px 0px
+        //top right bottom left 
+        height: 100%
 
 
 .mobile-nav
     display: none
 
 
-nav.desktop-nav 
-    color: white
-    display: grid
-    grid-template-columns: 18% 18% 1fr 18% 18%
-    a 
-        text-align: center
-        flex: 1
-        font-size: 1.5rem
-        margin-left: 0px
-        max-height: 2em
-        background: white
-        padding: 10px 10px 0px 15px
-        //top right bottom left 
-        height: 100%
+
 .mobile-nav > #nav-check 
     display: none
 
@@ -50,7 +52,7 @@ header
         font:
             size: 72px
             weight: 700
-        color: red 
+        color: white 
         text-transform: uppercase
     .kicker 
         font: 
@@ -58,11 +60,7 @@ header
             weight: 600
         color: white 
         text-transform: uppercase
-
-
-@media screen and (max-width: 900px)
-    // 900px media queries for header section
-
+@media screen and (min-width: 1800px)
     #logoLink
         padding: 0px 0px 0px 0px
 
@@ -70,13 +68,91 @@ header
         border-bottom-left-radius: 70%
         border-bottom-right-radius: 70%
         svg
-            width: 65%
+            width: 60%
+    nav.desktop-nav 
+        color: white
+        display: grid
+        grid-template-columns: 21% 21% 1fr 21% 21%
+        max-width: 100vw
+        a 
+            text-align: center
+            flex: 1
+            font-size: 1.1rem
+            margin-left: 0px
+            max-height: 2em
+            
+            background: white
+            padding: 10px 0px 0px 0px
+            //top right bottom left 
+            height: 100%
+@media screen and (max-width: 1200px)
+    #logoLink
+        padding: 0px 0px 0px 0px
+
+        min-height: 5em
+        border-bottom-left-radius: 70%
+        border-bottom-right-radius: 70%
+        svg
+            width: 45%
+    nav.desktop-nav 
+        color: white
+        display: grid
+        grid-template-columns: 21% 21% 1fr 21% 21%
+        max-width: 100vw
+        a 
+            text-align: center
+            flex: 1
+            font-size: 1.1rem
+            margin-left: 0px
+            max-height: 2em
+            
+            background: white
+            padding: 10px 0px 0px 0px
+            //top right bottom left 
+            height: 100%
+@media screen and (max-width: 1050px)  
+    #logoLink
+        padding: 0px 0px 0px 0px
+
+        min-height: 5em
+        border-bottom-left-radius: 70%
+        border-bottom-right-radius: 70%
+        svg
+            width: 55%
+  
+@media screen and (max-width: 900px)
+    // 900px media queries for header section
+    #logoLink
+        padding: 0px 0px 0px 0px
+
+        min-height: 5em
+        border-bottom-left-radius: 70%
+        border-bottom-right-radius: 70%
+        svg
+            width: 50%
+    nav.desktop-nav 
+        color: white
+        display: grid
+        grid-template-columns: 21% 21% 1fr 21% 21%
+        max-width: 100vw
+        a 
+            text-align: center
+            flex: 1
+            font-size: 1.1rem
+            margin-left: 0px
+            max-height: 2em
+            
+            background: white
+            padding: 10px 0px 0px 0px
+            //top right bottom left 
+            height: 100%
+  
     #header 
         background-image: url(../img/tmpBackground-medium.svg)
         background-size: cover
         max-width: 100vw
         h1
-            color: red
+            color: white
             padding-top: 4em
             font-size: 4em 
         p 
@@ -99,6 +175,33 @@ header
             //top right bottom left 
             height: 100%
 
+@media screen and (max-width: 750px)
+    #logoLink
+        padding: 0px 0px 0px 0px
+
+        min-height: 5em
+        border-bottom-left-radius: 70%
+        border-bottom-right-radius: 70%
+        svg
+            width: 65%
+    nav.desktop-nav 
+        color: white
+        display: grid
+        grid-template-columns: 21% 21% 1fr 21% 21%
+        max-width: 100vw
+        a 
+            text-align: center
+            flex: 1
+            font-size: 1.1rem
+            margin-left: 0px
+            max-height: 2em
+            
+            background: white
+            padding: 10px 0px 0px 0px
+            //top right bottom left 
+            height: 100%
+        
+
 @media screen and (max-width: 640px)
     // 600px media queries for general stuff
     body
@@ -114,6 +217,15 @@ header
         display: none
 
     // 600px media queries for navbar section
+      #logoLink
+        padding: 0px 0px 0px 0px
+
+        min-height: 5em
+        border-bottom-left-radius: 70%
+        border-bottom-right-radius: 70%
+        svg
+            width: 65%
+
     .mobile-nav 
         display: grid
         position: absolute 
@@ -123,7 +235,7 @@ header
         grid-template-columns: 1fr
         background: white
     .logo__container 
-        width: 40%        
+        width: 30%        
     .nav-btn 
         display: inline-block 
         position: absolute
@@ -192,7 +304,7 @@ header
         background-image: url(../img/tmpBackground-small.svg)
         background-size: cover
         h1
-            color: red
+            color: white
             padding-top: 8em
             font-size: 3em 
         p 
