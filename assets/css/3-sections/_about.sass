@@ -1,11 +1,13 @@
 .about
     overflow: hidden 
 .about__heading 
+    margin-bottom: 5%
     h1
         text-align: center
         color: red
     p
         margin: 0px 50px
+        
         font-size: 1rem
 .about__section1
     display: flex
@@ -47,14 +49,61 @@
             font-size: 1rem
             text-align: left
             padding-right: 1rem
-
-@media screen and (max-width: 600px)
-    // 600px media queries for about section
+@media screen and (max-width: 900px)
+    // 900px media queries for about section
+    .about
+        max-width: 100vw
     .about > .about__heading  
         
         h1
             padding: 1em 0em 1em 0em
             font-size: 4.25em
+            margin: 0px 8%
+        p 
+            font-size: 1.2em
+            margin: 0px 8%
+    .about > .about__section1 
+        display: flex
+        flex-direction: column
+    .about > .about__section1 > .about__why 
+        h3   
+            font-size: 1.3em
+            padding: 0px
+        p
+            font-size: 1.2em
+        order: 2
+        margin: 0px 8%
+    .about > .about__section1 > img
+        content: url("../../assets/img/about1-medium.svg")
+        width: 85%
+        height: auto
+        margin: 0px auto
+        flex-direction: column
+    .about > .about__section2 
+        display: flex
+        flex-direction: column
+    .about > .about__section2 > .about__history 
+        h3   
+            font-size: 1.3em
+            padding: 0px
+        p
+            font-size: 1.2em
+        order: 2
+        margin: 0px 8%
+    .about > .about__section2 > img
+        content: url("../../assets/img/about2-medium.svg")
+        width: 85%
+        height: auto
+        margin: 0px auto
+        flex-direction: column
+
+@media screen and (max-width: 640px)
+    // 600px media queries for about section
+    .about > .about__heading  
+        
+        h1
+            padding: 1em 0em 1em 0em
+            font-size: 4em
             margin: 0px 8%
         p 
             font-size: 1.1em
@@ -74,8 +123,8 @@
         margin: 0px 8%
     .about > .about__section1 > img
         content: url("../../assets/img/about1-small.svg")
-        width: 30em
-        height: 30em
+        width: 85%
+        height: auto
         margin: 0px auto
         flex-direction: column
 
@@ -92,7 +141,7 @@
         margin: 0px 8%
     .about > .about__section2 > img
         content: url("../../assets/img/about2-small.svg")
-        width: 30em
-        height: 30em
+        width: 85%
+        height: auto
         margin: 0px auto
         flex-direction: column   

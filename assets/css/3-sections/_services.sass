@@ -32,13 +32,33 @@
         font-size: 32px
     button:hover
         background-color: white
-@media screen and (max-width: 600px)
-    // 600px media queries for services section
+@media screen and (max-width: 900px)
+    // 900px media queries for services section
+    .services__cards
+        display: grid
+        margin: 0 10% 5% 10%
+        grid-gap: 20px
+        grid-template-columns: 1fr  1fr 
     .services__heading
         h1
             text-align: center
             color: red
             font-size: 4.25em
+            padding: 0.5em 0em 0.5em 0em
+    .card__content  
+        h5 
+            font-size: 1.4em
+        p
+            font-size: 1.2em
+
+
+@media screen and (max-width: 640px)
+    // 600px media queries for services section
+    .services__heading
+        h1
+            text-align: center
+            color: red
+            font-size: 4em
             padding: 0.5em 0em 0.5em 0em
     .card__content  
         h5 
