@@ -1,5 +1,5 @@
 # SouthCanStrength Website
-### sample website candidate for SouthCanStrength coaching services company
+### sample website candidate for SouthCanStrength coaching services company made with jekyll 
 
 ### Instructions:
 * Clone the repo and ```cd``` into it 
