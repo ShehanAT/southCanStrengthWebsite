@@ -3,6 +3,7 @@
         text-align: center
         color: red
         font-size: 4.25em
+        padding: 0.5em 0em 0.5em 0em
 .services__cards
     display: grid
     margin: 0 10% 5% 10%
@@ -12,10 +13,14 @@
     display: grid
     align-items: center
     border: 1px solid rgba(0, 0, 0, 0.7)
+    border-radius: 1em
+    box-shadow: 4px 4px 12px 2px rgba(black, 0.75)
     h5
         text-align: center
+        font-size: 1.5em
     p
-        margin: 0px 4rem
+        font-size: 1.3em
+        margin: 0em 2em 1em 2em 
 .services__img
     margin: 0px auto 
     width: 15rem
@@ -24,12 +29,13 @@
     margin: 0px auto 5% auto
     text-align: center
     strong 
-        font-size: 32px
+        font-size: 2em
         weight: 600
     button
         background-color: red 
         color: black
-        font-size: 32px
+        font-size: 2em
+        margin: 0px 10%
     button:hover
         background-color: white
 @media screen and (max-width: 900px)
@@ -56,12 +62,27 @@
     // 600px media queries for services section
     .services__heading
         h1
-            text-align: center
-            color: red
             font-size: 4em
-            padding: 0.5em 0em 0.5em 0em
     .card__content  
         h5 
             font-size: 1.3em
         p
             font-size: 1.1em
+@media screen and (max-width: 450px)
+    // 600px media queries for services section
+    .services__heading
+        h1 
+            font-size: 2em
+        
+    .card__content  
+        h5 
+            font-size: 1.2em
+        p
+            font-size: 1em
+    .services__form
+        margin: 0px auto 7% auto
+        strong 
+            font-size: 2em
+        button
+            font-size: 2em
+  

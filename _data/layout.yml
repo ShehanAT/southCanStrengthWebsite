@@ -5,14 +5,14 @@ animation: "bounceOut"
 # Images
 
 logo: "logo.svg"
-hero: "hero-bg.jpg"
-avatar: "travitar.jpg"
+# hero: "hero-bg.jpg"
+# avatar: "travitar.jpg"
 
 # Colors
 
-accent: "black"
+accent: "#C40000"
 
-textColor: "#666"
+textColor: "#000"
 headlineColor: "#333"
 bgcolor: "#e1d5d5"
 documentBackgroundColor: "#fff"
