@@ -1,6 +1,10 @@
 # SouthCanStrength Website
 ### sample website candidate for SouthCanStrength coaching services company
 
+### Instructions:
+* Clone the repo and ```cd``` into it 
+* Make sure you have ruby and jekyll installed on your local machine
+* run ```jekyll serve``` and go to ```http://localhost:4000```
 
 ### Project Logs:
 * 08/01/2019 - added navbar styles, added header background image + header styles, added about section for 900px-1200px viewports, all styles for far are only for 900px-1200px screens.
