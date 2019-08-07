@@ -19,7 +19,10 @@
   {% include analytics.html %}
 </head>
 <body>
-{% include header.html %}
-{% include athleteBio.html %}
+
+{% include athleteBio/athleteBioHeader.html %} 
+{% include athleteBio/athleteBio.html %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ site.github.url }}/assets/js/functions.js"></script>
 </body>
 </html>

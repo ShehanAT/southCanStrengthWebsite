@@ -5,22 +5,35 @@ title: Welcome to SouthCanStrength
 description: Home of the Strength Athlete
 email: shehanatuk@gmail.com
 
+contactPageTitle: Coaching Enquiries
+contactPageDescrption: Athlete Bio
+
+
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Us, url: '#about'}
-- {name: Services, url: '#services'}
-- {name: Enquiries, url: "#"}
-- {name: Contact, url: '#contact'}
+- {name: About Us, url: 'http://localhost:4000/#about'}
+- {name: Services, url: 'http://localhost:4000/#services'}
+- {name: Enquiries, url: "http://localhost:4000/contactPage"}
+- {name: Contact, url: 'http://localhost:4000/#contact'}
 
 left-menu:
-- {name: About Us, url: '#about'}
-- {name: Services, url: '#services'}
+- {name: About Us, url: 'http://localhost:4000/#about'}
+- {name: Services, url: 'http://localhost:4000/#services'}
 
 right-menu:
 
-- {name: Enquiries, url: "#"}
-- {name: Contact, url: '#contact'}
+- {name: Enquiries, url: "http://localhost:4000/contactPage/#enquiry"}
+- {name: Contact, url: 'http://localhost:4000/#contact'}
+
+contactLeft-menu:
+- {name: About Us, url: 'http://localhost:4000/#about'}
+- {name: Services, url: 'http://localhost:4000/#services'}
+
+contactRight-menu:
+
+- {name: Enquiries, url: "http://localhost:4000/contactPage/#enquiry"}
+- {name: Contact, url: 'http://localhost:4000/#contact'}
 
 
 #-------------------------------
@@ -65,32 +78,6 @@ blurb: >
 
 
 #-------------------------------
-# Clients Section
-
-clients:
-- {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
-  logo: 'logo1.png'}
-- {avatar: 'face-atariboy.jpg',
-  name: 'Hank McCoy',
-  title: 'Eater of Salad, Antartica Int.',
-  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
-  logo: 'logo2.png'}
-- {avatar: 'face-jackiesaik.jpg',
-  name: 'Stacy Lang',
-  title: 'Social Media Girl, Quebec Int.',
-  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
-  logo: 'logo3.png'}
-- {avatar: 'face-teleject.jpg',
-  name: 'Cleatus Cassidy',
-  title: 'VP of Helmut, Lorem Sorem LLC.',
-  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
-  logo: 'logo4.png'}
-
-
-#-------------------------------
 # Contact Section
 
 social:
@@ -104,4 +91,19 @@ services:
 - {imgPath: "../assets/img/servicesimg2.svg", heading: "Online Powerlifing Coaching", info: "Lorem Ipsum is simply dummpy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text every since the 1500s, when an unknow printer took a gallery of type"}
 - {imgPath: "../assets/img/servicesimg3.svg", heading: "Nutrition + Cardio Programming", info: "Lorem Ipsum is simply dummpy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text every since the 1500s, when an unknow printer took a gallery of type"}
 
+athleteBioInput:
+- {question: "Name"}
+- {question: "Weight(in lbs)"}
+- {question: "Age"}
+- {question: "Height(in cm)"}
+- {question: "Squat(in lbs)"}
+- {question: "Bench(in lbs)"}
+- {question: "Deadlift(in lbs)"}
+
+athleteBioTextArea:
+- {question: "What is your current goal?"}
+- {question: "How long have you been working out? Feel free to go in-depth"}
+- {question: "How long have you been training for powerlifting? Feel free to go in-depth"}
+- {question: "Have you competed in powerlifting? Or any other sports? When?"}
+- {question: "What is your current training split? Feel free to go in-depth"}
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
