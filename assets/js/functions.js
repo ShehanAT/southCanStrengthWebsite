@@ -40,3 +40,6 @@ function showSection(){
     document.getElementById("nav-check").checked = false;
     document.getElementById("nav-check__label").classList.remove("dropdown-active");
 }
+function goToContactPage(){
+    window.location.href = "https://shehanat.github.io/southCanStrengthWebsite/contactPage/#enquiry";   
+}
