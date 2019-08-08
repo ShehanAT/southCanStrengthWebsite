@@ -4,7 +4,7 @@ markdown: kramdown
 permalink: pretty
 
 port: 4000
-
+baseurl: "southCanStrengthWebsite"
 include: ['_includes/work']
 exclude: ['the_design.psd']
 
