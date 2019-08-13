@@ -1,4 +1,5 @@
 # SouthCanStrength Website
+### Live version: https://shehanat.github.io/southCanStrengthWebsite/
 ### Sample website candidate for SouthCanStrength coaching services company made with jekyll 
 
 ### Instructions:
